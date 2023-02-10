@@ -1,0 +1,212 @@
+body {
+    padding-top: 40px;
+    background-color: #FAF9F5;
+    /*background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');*/
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 7%;
+    overflow-x: hidden;
+    transition: all 200ms linear;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-shadow: 5px 5px rgb(226, 226, 226);
+    text-decoration: none;
+
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+/*Header et footer*/
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+
+.week {
+    text-align: center;
+}
+
+.semaine {
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+.banniere {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 55%;
+}
+
+.texte-logo {
+    text-align: center;
+    font-size: 23px;
+}
+
+.livraison {
+    border: 5% solid #D7850B;
+    background-color: #D7850B;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    position: relative;
+}
+
+.delete-livraison {
+    position: absolute;
+    top: 10%;
+    right: 0rem;
+    border: none;
+    background-color: #D7850B;
+}
+
+
+.inscrire {
+    border: 5px solid#D7850B;
+    background-color: #D7850B;
+    color: white;
+    position: absolute;
+    top: 3.5rem;
+    right: 12rem;
+    align-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.inscrire:hover {
+    color: black;
+}
+
+.connexion {
+    position: absolute;
+    top: 3.2rem;
+    right: 8rem;
+    align-content: center;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.panier {
+    position: absolute;
+    top: 3.2rem;
+    right: 5rem;
+    align-content: center;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.panier:hover {
+    color: #D7850B;
+}
+
+.connexion:hover {
+    color: #D7850B;
+}
+
+.texte-livraison {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.delete-livraison:hover {
+    color: white;
+}
+
+
+.footer {
+    border: 5% solid #D7850B;
+    background-color: #D7850B;
+    text-align: center;
+    color: white;
+    bottom: 0;
+}
+
+
+
+/*Fin Header et Footer*/
+/*Card pour les repas*/
+.card-img-top {
+    width: 70%;
+    border-radius: 5%;
+}
+
+.card-button {
+    background-color: white;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    max-width: 20%;
+}
+
+.all-buttons {
+    margin: 7%;
+}
+
+.price {
+    text-align: center;
+    width: 30%;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: orange;
+    border-image: initial;
+    margin: auto;
+}
+
+
+.price ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    *display: inline;
+}
+
+.price li {
+    float: left;
+    padding: 2px 5px;
+}
+
+
+.menu {
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+
+}
+
+
+.plat {
+    text-align: center;
+    color: red;
+    padding-bottom: 20px;
+}
+
+.border {
+    border: 5px solid;
+}
+
+.btn {
+
+    background: #ff9900;
+
+    color: #fff;
+
+}

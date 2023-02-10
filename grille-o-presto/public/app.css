@@ -1,0 +1,84 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ h1 {
+     text-align: center;
+     font-size: 40px;
+     color: black;
+     text-shadow: 1px 1px rgb(200, 200, 200);
+     padding-bottom: 20px;
+     border-bottom: 2px solid rgb(191, 191, 191);
+}
+
+
+.menu {
+    background-color: rgb(246, 245, 243);
+    border: 3px outset #D7850B;
+    box-shadow:  0 0 10px 5px rgb(228, 228, 228);
+    text-align: center;
+    width: 50%;
+
+}
+.mb-3 {
+margin: 10px 10px 10px 10px;
+}
+
+.mb-3 input, select {
+    box-shadow:  0 0 5px 2px rgb(228, 228, 228);
+    border: 2px solid rgb(191, 191, 191);
+    width: 100%;
+}
+
+
+/*body { 
+      background-image: url('/image/Background-Admin.jpg');
+}*/
+/*/////////////////////////CSS list/////////////////////////////////////////*/
+
+thead{
+    background-color: #FF6877;
+    color: white;
+    box-shadow:  0 0 5px 2px rgb(228, 228, 228);
+    
+    
+}
+
+.bi {
+    background-color: red; 
+    border-radius: 5px;
+    border-color: red;
+}
+
+svg {
+    color: white; 
+    
+}
+
+.table {
+    background-color: #f8f8f8; 
+    box-shadow:  0 0 15px 10px rgb(228, 228, 228);
+}
+/*/////////////////////////CSS Nav Bar/////////////////////////////////////////*/
+
+.navBarAdmin {
+    background-color: #C0C3C7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+    gap: 10px;
+    width: 100%;
+}
+.btn {
+    background-color: #D7850B;
+    border-color: #D7850B;
+    border-radius: 10px;
+    width: 20rem;
+}
+.classLogo {
+    width: 15%;
+
+}
